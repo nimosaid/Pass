@@ -27,4 +27,7 @@ def generate_password():
 	'''
 	Function to auto-generate passwords
 	'''
-	
+	gen_pass =Info.generate_password()
+	return gen_pass
+
+def create_info(user_name)
