@@ -1,4 +1,4 @@
-# Password Locker
+# Pass
 
 ## Built By [NIMO SAID](https://github.com/nimosaid/)
 
