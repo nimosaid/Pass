@@ -34,3 +34,11 @@ def create_info(user_name,site_name,account_name,password):
    '''
    Function to save  newly created info
    '''
+   return Info.copy_info(site_name)
+
+def main():
+	print(' ')
+	print('Hello Welcome to Pass!!!!')
+	while True:
+		print(' ')
+		print("-")
