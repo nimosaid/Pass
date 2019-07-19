@@ -30,4 +30,7 @@ def generate_password():
 	gen_pass =Info.generate_password()
 	return gen_pass
 
-def create_info(user_name)
+def create_info(user_name,site_name,account_name,password):
+   '''
+   Function to save  newly created info
+   '''
