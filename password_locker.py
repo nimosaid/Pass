@@ -15,3 +15,9 @@ def save_user(user):
 	Function to save a new user account
 	'''
 	User.save_user(user)
+
+def verify_user(first_name,password):
+	'''
+	Function that verifies the exictance of the user before  creating the Info
+	'''
+	checking_user = Info.check_user(first_name)
