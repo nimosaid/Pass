@@ -31,7 +31,6 @@ As a user I would like:
 * python3.6
 * pip
 * pyperclip
-* xclip
 
 ### Cloning
 * In your terminal:
