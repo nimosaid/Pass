@@ -48,7 +48,7 @@ As a user I would like:
 ## Testing the Application
 * To run the tests for the class file:
 
-        $ python3.6 user_credentials_test.py
+        $ python3.6 user_info_test.py
 
 ## Technologies Used
 * Python3.6
