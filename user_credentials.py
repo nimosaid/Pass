@@ -3,7 +3,7 @@ import random
 import string
 
 # Global Variables
-global users_list
+global users_list 
 class User:
 	'''
 	Class to create user accounts and save their information
@@ -26,7 +26,7 @@ class User:
 		Function to save a newly created user instance
 		'''
 		User.users_list.append(self)
-
+		
 class Credential:
 	'''
 	Class to create  account credentials, generate passwords and save their information
@@ -62,7 +62,7 @@ class Credential:
 		'''
 		# global users_list
 		Credential.credentials_list.append(self)
-
+	
 	def generate_password(size=8, char=string.ascii_uppercase+string.ascii_lowercase+string.digits):
 		'''
 		Function to generate an 8 character password for a credential
@@ -80,9 +80,9 @@ class Credential:
 			if credential.user_name == user_name:
 				user_credentials_list.append(credential)
 		return user_credentials_list
+				
 
-
-
+	
 	@classmethod
 	def find_by_site_name(cls, site_name):
 		'''
@@ -99,3 +99,4 @@ class Credential:
 		'''
 		find_credential = Credential.find_by_site_name(site_name)
 		return pyperclip.copy(find_credential.password)
+
