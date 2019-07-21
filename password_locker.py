@@ -1,4 +1,4 @@
-#! let's get started
+#! / let's get started
 import pyperclip
 from user_credentials import User, Credential
 
@@ -159,4 +159,5 @@ def main():
 
 if __name__ == '__main__':
 	main()
-# !/ think we are done
+
+# ! / Think we are done
